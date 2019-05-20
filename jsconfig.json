@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "app/*": ["./app/*"]
+      },
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true
+    },
+    "typeAcquisition": {
+      "enable": true
+    },
+    "exclude": ["node_modules", "dist"]
+  }
+  
